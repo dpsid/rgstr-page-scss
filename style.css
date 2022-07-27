@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  color: hsl(0deg, 0%, 100%);
+  justify-content: center;
+  font-family: "Open Sans", sans-serif;
+  background-color: hsl(180deg, 10%, 12%);
+}
+
+.container {
+  width: 400px;
+  height: 600px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: hsl(180deg, 9%, 9%);
+}
+.container h1 {
+  font-size: 1rem;
+  margin-top: 115px;
+}
+.container .form {
+  width: 293px;
+  height: 190px;
+  margin: 55px 0px 0px 53px;
+}
+.container .form input[type=text],
+.container .form input[type=email] {
+  width: 293px;
+  height: 42px;
+  border: none;
+  outline: none;
+  padding: 15px;
+  font-size: 0.7rem;
+  border-radius: 21px;
+  margin-bottom: 30px;
+  color: hsla(0deg, 0%, 100%, 0.5);
+  background-color: hsl(180deg, 10%, 12%);
+}
+.container .form label {
+  width: 260px;
+  margin-top: 50px;
+  font-size: 0.96rem;
+  cursor: pointer;
+}
+.container .form label input[type=checkbox] {
+  width: 10px;
+  height: 10px;
+}
+.container .form .button {
+  width: 200px;
+  height: 75px;
+  border: none;
+  cursor: pointer;
+  margin-top: 22px;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: hsl(0deg, 0%, 100%);
+  border-radius: 37.5px;
+  background-color: hsl(168deg, 99%, 37%);
+}
+.container ul li {
+  width: 10px;
+  height: 10px;
+  margin-top: 31px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: hsl(168deg, 99%, 37%);
+}/*# sourceMappingURL=style.css.map */
